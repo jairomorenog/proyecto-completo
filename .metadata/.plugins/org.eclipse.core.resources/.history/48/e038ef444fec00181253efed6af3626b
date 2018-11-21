@@ -1,0 +1,11 @@
+package com.prueba.pr;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class vercontroller {
+	
+	
+	
+
+}

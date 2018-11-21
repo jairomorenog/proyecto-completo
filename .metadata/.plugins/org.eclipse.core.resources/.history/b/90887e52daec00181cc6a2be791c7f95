@@ -1,0 +1,25 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<!DOCTYPE html>
+<html>
+<head>
+ 
+	<title>Home</title>
+	<meta http-equiv="content-type" content="text/html; utf-8">
+</head>
+<body>
+<h1>
+	Hello world!  
+</h1>
+
+<form action="" method="post">
+<div class="fila">
+<label class="lbluser" id="lbluser">User</label>
+<input type="text" class="txtuser" name="txtuser" id="txtuser" />
+</div>
+
+</form>
+
+ 
+</body>
+</html>

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Nov 20 14:12:40 COT 2018
+org.eclipse.jst.jee.server\:login=C\:\\Users\\Usuario\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\login
+org.eclipse.jst.jee.server\:prueba=C\:\\Users\\Usuario\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\prueba

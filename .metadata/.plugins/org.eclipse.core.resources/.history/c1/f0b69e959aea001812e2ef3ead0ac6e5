@@ -1,0 +1,22 @@
+package com.prueba.app;
+
+import java.applet.AppletContext;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.prueba.Spring.saludo;
+
+public class app {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		ApplicationContext appContext= new ClassPathXmlApplicationContext("com.prueba.context.xml.beans.xml");
+		
+		saludo s= appContext.getBean(saludo.class);
+		
+		System.out.println(s.getSaludo());
+	}
+
+}

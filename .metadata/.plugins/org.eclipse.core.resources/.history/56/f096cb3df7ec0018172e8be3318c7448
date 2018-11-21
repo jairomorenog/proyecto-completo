@@ -1,0 +1,24 @@
+package com.prueba.login;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class logincontroller {
+
+	
+	@RequestMapping(value ="/enviar", method = RequestMethod.POST)
+	public String ingresar(@RequestParam ("txtuser") String user,@RequestParam("txtpassword") String poassword, Model md) {
+		
+		
+		md.addAttribute("usuario","fdf");
+		
+		return "home";
+		
+		
+	}
+	
+}
